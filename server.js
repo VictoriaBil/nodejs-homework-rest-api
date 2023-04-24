@@ -4,9 +4,6 @@ const app = require("./app");
 
 const { DB_HOST } = require("./config");
 
-// const DB_HOST =
-//   "mongodb+srv://VictoriaBil:vi1123581321@cluster0.ygyuile.mongodb.net/db-contacts?retryWrites=true&w=majority";
-
 mongoose.set("strictQuery", true);
 
 mongoose
